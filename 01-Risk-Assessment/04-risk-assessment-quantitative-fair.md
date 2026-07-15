@@ -191,8 +191,8 @@ Secondary Loss = Indirect costs (reputation, customer churn, regulatory fines, l
 
 ## Key Takeaways for the Board
 
-1. **Top 10 risks represent $41.8M in annual loss expectancy** — exceeding the company's $40M funding round
+1. **Top 10 risks from FAIR analysis represent $41.8M in annual loss expectancy** — exceeding the company's $40M funding round *(Note: The comprehensive ALE analysis covering all crown jewel risks yields a $75.9M baseline — see ALE/SLE/ARO Calculations for the complete picture.)*
 2. **Four risks account for 73% of total ALE:** Vault compromise, SQLi, DB escalation, and ML model theft
-3. **$150K in security controls** can reduce ALE by an estimated 85%, from $41.8M to $6.3M
+3. **$150K in security controls** can reduce total ALE by an estimated 72%, from $75.9M to $21.4M (see ALE/SLE/ARO Calculations for detailed ROI)
 4. **Risk transfer (cyber insurance)** covers an estimated $10M in secondary losses — but does not cover regulatory fines or competitive loss from IP theft
 5. **Recommended budget:** $150K one-time for immediate controls, $50K/year for ongoing operations

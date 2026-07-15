@@ -84,7 +84,7 @@ K     (2)     │  Internal   │Frg│            │
 
 ### #3 — Payment Key Compromise ($12.3M ALE)
 
-| Asset | Detail |
+| Aspect | Detail |
 |--------|--------|
 | What's at risk | All payment signing keys, API credentials, TLS private keys |
 | How it happens | Attacker authenticates to Vault without MFA — all keys exposed |

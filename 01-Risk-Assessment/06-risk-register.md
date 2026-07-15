@@ -157,23 +157,23 @@
 | Status | **Open** |
 | Residual Score (projected) | 6 (Medium) |
 
-### RI-008 — Payment Key Tampering
+### RI-008 — Internal MITM on Payment Infrastructure
 
 | Field | Value |
 |-------|-------|
-| Risk Statement | If an attacker gains write access to the key distribution mechanism, then payment API keys can be replaced with attacker-controlled keys, diverting payment flows. |
-| Asset | CJ-002 — Payment Processing Key Vault |
-| Threat Source | Internal — Advanced persistent insider, deep network compromise |
-| Current Controls | Static keys, Vault access control (no path restriction) |
+| Risk Statement | If an attacker gains internal network access (compromised VPN, rogue device), then they can perform man-in-the-middle attacks on payment traffic between the transaction engine and downstream processors, capturing card data and authentication tokens. |
+| Asset | CJ-003 — Core Transaction Engine |
+| Threat Source | Internal — Compromised VPN credentials, rogue device on internal network |
+| Current Controls | Network segmentation (VLANs), HTTPS/TLS encryption, no internal PKI |
 | L | 3 |
-| I | 5 |
-| Risk Score | **15 (Critical)** |
-| ALE | $2,200,000 |
+| I | 4 |
+| Risk Score | **12 (High)** |
+| ALE | $903,000 |
 | Treatment | **Mitigate** |
-| Treatment Plan | Key integrity verification → automated key rotation → anomaly detection on key usage patterns (6 weeks) |
+| Treatment Plan | Deploy internal PKI with mutual TLS → implement network access controls (NAC) → configure TLS with certificate pinning on payment endpoints (4 weeks) |
 | Risk Owner | CTO |
 | Status | **Open** |
-| Residual Score (projected) | 8 (Medium) |
+| Residual Score (projected) | 6 (Medium) |
 
 ### RI-009 — ML Model Exfiltration
 
@@ -217,12 +217,12 @@
 
 | Status | Count | Total ALE |
 |--------|-------|-----------|
-| Open | 6 | $52,518,500 |
-| In Progress | 3 | $18,467,000 |
+| Open | 7 | $54,451,500 |
+| In Progress | 3 | $21,467,000 |
 | Accepted | 0 | $0 |
 | Transferred | 0 | $0 |
 | Closed | 0 | $0 |
-| **Total** | **10** | **$70,985,500** |
+| **Total** | **10** | **$75,918,500** |
 
 ---
 
@@ -243,7 +243,7 @@
 
 | Owner | Count | Risks | Total ALE |
 |-------|-------|-------|-----------|
-| CTO | 5 | RI-001, RI-002, RI-003, RI-006, RI-008 | $42,259,500 |
+| CTO | 5 | RI-001, RI-002, RI-003, RI-006, RI-008 | $39,862,500 |
 | VP Engineering | 5 | RI-004, RI-005, RI-007, RI-009, RI-010 | $36,056,000 |
 
 ---

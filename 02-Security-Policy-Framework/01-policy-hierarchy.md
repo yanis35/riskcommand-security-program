@@ -3,7 +3,7 @@
 **Phase:** 2 — Security Policy Framework
 **Objective:** Define the policy hierarchy, document taxonomy, and governance structure
 **Framework:** NIST CSF 2.0, ISO 27001:2022 Annex A
-**Total documents:** 1 master policy + 11 domain policies + 3 supporting documents
+**Total documents:** 1 master policy + 11 domain policies + 2 supporting documents = 14 documents
 
 ---
 
