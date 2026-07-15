@@ -13,7 +13,7 @@
 |-------|-------------|
 | Risk ID | Unique identifier |
 | Category | NIST CSF function (Identify, Protect, Detect, Respond, Recover) |
-| Risk Statement | If [threat] then [impact] because [vulnerability] |
+| Risk Statement | If [threat actor] exploits [vulnerability], then [business impact] occurs |
 | Asset | Crown jewel affected |
 | Threat Source | Internal/external, accidental/malicious |
 | Current Controls | What exists today |
@@ -250,6 +250,6 @@
 
 ## Next Review
 
-**Next Risk Register Review:** [Current Date + 30 days]
-**Next Board Risk Update:** [Next Quarterly Board Meeting]
+**Next Risk Register Review:** 30 days from report date
+**Next Board Risk Update:** Next quarterly board meeting
 **Risk Register Owner:** CISO

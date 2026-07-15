@@ -11,10 +11,10 @@
 
 | Role | Person | Critical Knowledge | Backup(s) | Cross-Trained? |
 |------|--------|-------------------|-----------|----------------|
-| CTO | [Name] | AWS architecture, payment infrastructure, Vault management, vendor relationships | VP Eng, Sr. DevOps | Partial |
-| Database Administrator | [Name] | RDS configuration, cross-region replication, backup/restore procedures | DevOps (2) | Partial |
-| Lead ML Engineer | [Name] | Fraud detection models, training pipeline, model deployment | ML Eng (1) | No |
-| Security Engineer | [Name] | SIEM configuration, EDR management, incident response procedures | CISO | Partial |
+| CTO | Confidential | AWS architecture, payment infrastructure, Vault management, vendor relationships | VP Eng, Sr. DevOps | Partial |
+| Database Administrator | Confidential | RDS configuration, cross-region replication, backup/restore procedures | DevOps (2) | Partial |
+| Lead ML Engineer | Confidential | Fraud detection models, training pipeline, model deployment | ML Eng (1) | No |
+| Security Engineer | Confidential | SIEM configuration, EDR management, incident response procedures | CISO | Partial |
 
 ---
 
