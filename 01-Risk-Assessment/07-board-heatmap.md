@@ -9,12 +9,12 @@
 
 ## Executive Summary
 
-NexPay Financial engaged in a comprehensive risk assessment across all critical systems. The assessment identified **10 top risks** representing a combined **$70.9M Annualized Loss Expectancy (ALE)** — nearly 1.8× the company's $40M Series B funding.
+NexPay Financial engaged in a comprehensive risk assessment across all critical systems. The assessment identified **10 top risks** representing a combined **$75.9M Annualized Loss Expectancy (ALE)** — nearly 1.9× the company's $40M Series B funding.
 
 **Key findings:**
 - 8 of 10 top risks are rated **Critical** (risk score 15–25)
 - **4 risks account for 76% of total ALE:** ML model theft, DB privilege escalation, payment key compromise, and PII data breach
-- **$150K in security controls** can reduce total ALE by an estimated 85%
+- **$150K in security controls** can reduce total ALE by an estimated 72%
 - **Current cyber insurance coverage gap:** Standard policies do not cover IP theft ($18.4M ALE from ML model theft)
 
 ---
@@ -134,7 +134,7 @@ K     (2)     │  Internal   │Frg│            │
 | R-06 DDoS | Shield Advanced + WAF DDoS rules | $8K/mo | $3.1M → $800K |
 
 **Total 30-day investment:** $36K one-time + $8K/month ongoing
-**Projected ALE reduction:** $75.9M → $19.0M (75% reduction)
+**Projected ALE reduction:** $75.9M → $21.4M (72% reduction)
 
 ### 60-Day Window ($50K investment)
 

@@ -160,5 +160,5 @@
 1. **Total ALE for top 10 risks: $75.9M** — nearly 2× the $40M funding round
 2. **Cyber insurance limit recommendation:** $20M (covers 26% of total ALE — policy cost ~$15K/year)
 3. **ML model theft is the #1 risk ($18.4M ALE)** — standard cyber insurance does not cover IP theft
-4. **Mitigation ROI:** Spending $150K on controls reduces ALE from $75.9M to an estimated $11.4M (85% reduction) — over 400× ROI
+4. **Mitigation ROI:** Spending $150K on controls reduces ALE from $75.9M to an estimated $21.4M (72% reduction) — over 360× ROI
 5. **Self-insured retention (SIR):** Recommended $250K — balances premium cost with manageable out-of-pocket exposure

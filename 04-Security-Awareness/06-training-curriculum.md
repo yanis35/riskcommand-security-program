@@ -112,5 +112,5 @@
 | Phishing click rate (Q4 target) | ≤5% | 27.3% (baseline) |
 | Phishing report rate (Q4 target) | ≥50% | 6.1% (baseline) |
 | Credential submission rate (Q4 target) | ≤2% | 23.7% (baseline) |
-| Quiz pass rate (annual core) | ≥90% | — (TBD) |
-| Role-specific training completion | 90% | — (TBD) |
+| Quiz pass rate (annual core) | ≥90% | — (Year 1 target) |
+| Role-specific training completion | 90% | — (Year 1 target) |
