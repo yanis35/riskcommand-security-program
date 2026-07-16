@@ -32,10 +32,10 @@ The board expects:
 | 2 | Security Policy Framework | Weeks 3–5 | 15 |
 | 3 | BCP/DR with Tested Runbooks | Weeks 5–7 | 8 |
 | 4 | Security Awareness & Phishing Program | Weeks 7–9 | 7 |
-| 5 | Vendor Risk Management Program | Weeks 9–11 | 8 |
+| 5 | Vendor Risk Management Program | Weeks 9–11 | 6 |
 | 6 | Executive Reporting & KRIs | Weeks 11–12 | 5 |
 
-**Total deliverables: 50+ artifacts**
+**Total deliverables: 48 artifacts**
 
 ---
 

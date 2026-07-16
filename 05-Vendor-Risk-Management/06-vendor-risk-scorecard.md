@@ -13,9 +13,9 @@
 | Total Vendors | 31 |
 | Annual Vendor Spend | $1.12M |
 | Assessed (YTD) | 14 of 31 |
-| Critical/High Vendors | 14 |
+| Critical or High Tier Vendors ^[Tier classifications based on data sensitivity and criticality to business operations, not risk scores.] | 14 |
 | Overdue Assessments | 2 |
-| Open Remediation Items | 8 |
+| Open Remediation Items | 10 |
 | Portfolio Risk Score (Weighted Avg) | **27.4 / 100 (Medium)** |
 
 ---

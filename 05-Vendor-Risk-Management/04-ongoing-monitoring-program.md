@@ -76,7 +76,7 @@ When a vendor breach notification is received:
 | Metric | Critical | High | Medium | Low |
 |--------|----------|------|--------|-----|
 | Breach notifications (past 12mo) | 0 | 0 | 0 | 0 |
-| Vendor risk score (avg) | 62 | 35 | 18 | 8 |
+| Vendor risk score (avg) | 51 | 29 | 18 | 8 |
 | Assessments overdue | 0 | 1 | 3 | N/A |
 | Remediation items open | 2 | 4 | 0 | 0 |
 | Score trend (QoQ) | Stable | Stable | Improving | Stable |

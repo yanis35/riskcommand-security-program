@@ -27,9 +27,9 @@ Each business process is evaluated across five impact dimensions:
 
 | ID | Process | Owner | Revenue/Hour | MAO | RTO | RPO |
 |----|---------|-------|-------------|-----|-----|------|
-| BP-01 | Payment Transaction Processing | CTO | $267,000 | 1 hour | ≤4 hours | ≤5 min |
+| BP-01 | Payment Transaction Processing | CTO | $267,000 | 4 hours | ≤1 hour | ≤5 min |
 | BP-02 | Customer API Gateway | VP Eng | $133,500 | 2 hours | ≤4 hours | ≤5 min |
-| BP-03 | User Authentication & SSO | CTO | $267,000 | 30 min | ≤1 hour | Real-time sync |
+| BP-03 | User Authentication & SSO | CTO | $267,000 | 1 hour | ≤30 min | Real-time sync |
 | BP-04 | Payment Key Management | CTO | $267,000 | 1 hour | ≤4 hours | ≤5 min |
 | BP-05 | Transaction Fraud Detection | VP Eng | $100,000 | 4 hours | ≤4 hours | ≤1 hour |
 

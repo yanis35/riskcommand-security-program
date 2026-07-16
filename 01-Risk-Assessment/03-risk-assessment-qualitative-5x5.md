@@ -19,7 +19,7 @@ Risk is calculated as: **Risk Score = Likelihood × Impact**
 | 2 | Unlikely (5–19%) | Minor ($10K–$100K loss, temporary inconvenience) |
 | 1 | Rare (<5%) | Insignificant (<$10K loss, no external impact) |
 
-**Risk Rating:** Critical (15–25), High (10–14), Medium (5–9), Low (1–4)
+**Risk Rating:** Critical (15–25), High (9–14), Medium (5–8), Low (1–4)
 
 ---
 
@@ -38,7 +38,7 @@ Risk is calculated as: **Risk Score = Likelihood × Impact**
 | R-07 | Over-scoped CI/CD token reads all Vault secrets | T-012 | 4 | 4 | **16** | Token scoped to KV mount, not path-limited | Critical |
 | R-08 | Payment key replaced by attacker | T-008 | 3 | 5 | **15** | Static keys, no integrity verification on retrieval | Critical |
 
-### High Risks (Score 10–14)
+### High Risks (Score 9–14)
 
 | # | Risk | Threat | L | I | Score | Current Controls | Residual |
 |---|------|--------|---|----|----|-----------------|----------|
@@ -91,7 +91,7 @@ d  3 │      │ R-15 │ R-05 │ R-08 │      │
 | Color | Zone | Action |
 |-------|------|--------|
 | Red | Critical (15–25) | Immediate remediation — within 30 days |
-| Orange | High (10–14) | Remediate within 90 days |
+| Orange | High (9–14) | Remediate within 90 days |
 | Yellow | Medium (5–9) | Include in backlog, remediate within 6 months |
 | Green | Low (1–4) | Accept or monitor |
 
@@ -102,7 +102,7 @@ d  3 │      │ R-15 │ R-05 │ R-08 │      │
 | Risk ID | Treatment | Rationale | Timeline | Cost Est. |
 |---------|-----------|-----------|----------|-----------|
 | R-01 | Mitigate | Deploy WAF with OWASP SQLi ruleset | 2 weeks | $5K |
-| R-02 | Mitigate | Enable MFA on Vault + rotate tokens | 1 week | $2K |
+| R-02 | Mitigate | Enable MFA on Vault + rotate tokens | 1 week | $15K (including HSM licensing) |
 | R-03 | Mitigate | Implement row-level security + least privilege DB roles | 4 weeks | $10K |
 | R-04 | Mitigate | Enforce branch protection + required reviews on all branches | 1 week | $0 |
 | R-05 | Mitigate | Replace JWT key, implement key rotation policy | 2 weeks | $3K |
@@ -113,8 +113,9 @@ d  3 │      │ R-15 │ R-05 │ R-08 │      │
 **Risk Transfer:** Cyber insurance policy ($15K/year — covers breach response, ransomware, business interruption)
 
 **Risk Acceptance (with monitoring):** R-15 (Vault log exposure — low likelihood, will be addressed in SIEM v2)
-
 ---
+
+*Document ID: RA-003 | Version: 1.0 | Effective: Jan 2026*
 
 ## Next Steps
 

@@ -13,7 +13,7 @@ NexPay Financial engaged in a comprehensive risk assessment across all critical 
 
 **Key findings:**
 - 8 of 10 top risks are rated **Critical** (risk score 15–25)
-- **4 risks account for 76% of total ALE:** ML model theft, DB privilege escalation, payment key compromise, and PII data breach
+- **4 risks account for 71% of total ALE:** ML model theft, DB privilege escalation, payment key compromise, and PII data breach
 - **$150K in security controls** can reduce total ALE by an estimated 72%
 - **Current cyber insurance coverage gap:** Standard policies do not cover IP theft ($18.4M ALE from ML model theft)
 
@@ -51,8 +51,8 @@ K     (2)     │  Internal   │Frg│            │
 
 | Color | Zone | Count | Total ALE |
 |-------|------|-------|-----------|
-| Red | Critical (15–25) | 8 | $58,503,500 |
-| Orange | High (10–14) | 2 | $18,482,000 |
+| Red | Critical (15–25) | 8 | $51,538,500 |
+| Orange | High (10–14) | 2 | $24,380,000 |
 | Yellow | Medium (5–9) | 0 | $0 |
 | Green | Low (1–4) | 0 | $0 |
 
@@ -61,6 +61,8 @@ K     (2)     │  Internal   │Frg│            │
 ## Top 5 Risks — Board Summary
 
 ### #1 — ML Model Theft ($18.4M ALE)
+
+> **Note:** ML Model Theft appears as #1 in this heatmap but #4 in the FAIR analysis (see 04-risk-assessment-quantitative-fair.md) due to methodological differences in loss distribution modeling.
 
 | Aspect | Detail |
 |--------|--------|
@@ -119,7 +121,7 @@ K     (2)     │  Internal   │Frg│            │
 
 ## Risk Treatment Roadmap (30-60-90 Day)
 
-### Next 30 Days ($36K investment)
+### Next 30 Days ($28K investment)
 
 | Risk | Action | Cost | ALE Reduction |
 |------|--------|------|---------------|
@@ -133,7 +135,7 @@ K     (2)     │  Internal   │Frg│            │
 | R-03 DB Escalation | Row-level security, revoke privileges | $10K | $12.4M → $3.1M |
 | R-06 DDoS | Shield Advanced + WAF DDoS rules | $8K/mo | $3.1M → $800K |
 
-**Total 30-day investment:** $36K one-time + $8K/month ongoing
+**Total 30-day investment:** $28K one-time + $8K/month ongoing
 **Projected ALE reduction:** $75.9M → $21.4M (72% reduction)
 
 ### 60-Day Window ($50K investment)
@@ -158,13 +160,13 @@ K     (2)     │  Internal   │Frg│            │
 
 | Category | One-Time | Monthly Recurring | Annual Total |
 |----------|----------|-------------------|--------------|
-| Immediate controls (30-day) | $36,000 | $8,000 | $132,000 |
+| Immediate controls (30-day) | $28,000 | $8,000 | $124,000 |
 | Near-term controls (60-day) | $50,000 | $0 | $50,000 |
 | Ongoing operations (90-day) | $65,000 | $5,333 | $129,000 |
 | Cyber insurance premium | $0 | $0 | $15,000 |
-| **Total** | **$151,000** | **$13,333** | **$326,000** |
+| **Total** | **$143,000** | **$13,333** | **$318,000** |
 
-**Remaining budget:** $174,000 of $500K allocation
+**Remaining budget:** $182,000 of $500K allocation
 **Recommended reserve:** For incident response retainer ($50K/year) and unanticipated findings from pentest
 
 ---
@@ -173,7 +175,7 @@ K     (2)     │  Internal   │Frg│            │
 
 | # | Action | Owner | Due |
 |---|--------|-------|-----|
-| 1 | **Approve** $151K security control investment | Board | This meeting |
+| 1 | **Approve** $143K security control investment | Board | This meeting |
 | 2 | **Approve** $8K/month AWS Shield Advanced DDoS protection | Board | This meeting |
 | 3 | **Approve** $15K/year cyber insurance policy upgrade | Board | This meeting |
 | 4 | **Direct** CTO to implement 30-day controls immediately | Board | Next meeting update |

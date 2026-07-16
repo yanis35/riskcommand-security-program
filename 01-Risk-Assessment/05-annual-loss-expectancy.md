@@ -152,8 +152,9 @@
 | 9 | JWT Forgery | $1,150,000 | 1.5 | $1,725,000 | $75,015,500 |
 | 10 | Internal MITM | $752,500 | 1.2 | $903,000 | $75,918,500 |
 | | **Total** | | | **$75,918,500** | |
-
 ---
+
+*Document ID: RA-005 | Version: 1.0 | Effective: Jan 2026*
 
 ## Key Findings for Insurance
 

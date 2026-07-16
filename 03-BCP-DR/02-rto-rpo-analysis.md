@@ -22,10 +22,10 @@
 
 | System | RTO | RPO | MAO | Strategy | DR Region | Failover Type |
 |--------|-----|-----|-----|----------|-----------|---------------|
-| Transaction Engine API | 4 hours | 5 min | 1 hour | Active-active (multi-AZ) → cross-region failover | us-west-2 | Automated |
-| Payment Key Vault (Vault) | 1 hour | Real-time | 30 min | Active-standby with auto-unseal | us-west-2 | Semi-automated |
-| Customer PII Database (RDS) | 4 hours | 5 min | 1 hour | Cross-region read replica → promote | us-west-2 | Automated |
-| Okta SSO | 1 hour | Real-time | 30 min | Okta cell-based architecture (multi-region) | SaaS-native | Automated |
+| Transaction Engine API | 1 hour | 5 min | 4 hours | Active-active (multi-AZ) → cross-region failover | us-west-2 | Automated |
+| Payment Key Vault (Vault) | 30 min | Real-time | 1 hour | Active-standby with auto-unseal | us-west-2 | Semi-automated |
+| Customer PII Database (RDS) | 1 hour | 5 min | 4 hours | Cross-region read replica → promote | us-west-2 | Automated |
+| Okta SSO | 30 min | Real-time | 1 hour | Okta cell-based architecture (multi-region) | SaaS-native | Automated |
 | Fraud Detection ML (Sagemaker) | 4 hours | 1 hour | 4 hours | Model artifacts cross-region replicated + standby endpoint | us-west-2 | Manual promotion |
 | AWS Production Environment | 4 hours | 5 min | 2 hours | Infrastructure-as-Code (Terraform) + cross-region deployment | us-west-2 | Semi-automated |
 

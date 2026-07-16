@@ -109,7 +109,7 @@
 |--------|--------|---------|
 | Annual training completion | 100% | 93.7% (Q1) |
 | New hire training within 30 days | 100% | 95% |
-| Phishing click rate (Q4 target) | ≤5% | 27.3% (baseline) |
+| Phishing click rate (Q4 target) | ≤5% | 33.4% (Q1 2026 average across 4 simulated phishing campaigns) |
 | Phishing report rate (Q4 target) | ≥50% | 6.1% (baseline) |
 | Credential submission rate (Q4 target) | ≤2% | 23.7% (baseline) |
 | Quiz pass rate (annual core) | ≥90% | — (Year 1 target) |

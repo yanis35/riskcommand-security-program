@@ -105,8 +105,9 @@ STRIDE categorizes threats into six dimensions. Each system is analyzed across a
 | 6 | T-020 | Malicious PR in production | Source Code | Critical |
 | 7 | T-008 | Payment key tampering | Key Vault | Critical |
 | 8 | T-001 | Stolen DB credentials | PII Database | High |
-
 ---
+
+*Document ID: RA-002 | Version: 1.0 | Effective: Jan 2026*
 
 ## Recommended Controls
 

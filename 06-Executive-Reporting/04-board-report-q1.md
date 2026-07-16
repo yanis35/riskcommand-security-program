@@ -13,7 +13,7 @@
 The security program completed its first quarter of operation. Significant foundational work was completed: risk assessment, policy framework, BCP/DR planning, security awareness program launch, and vendor risk management initiation. The organization's overall security maturity is assessed at CMMI Level 1.8 (between Initial and Managed), with a target of Level 2.8 by year end.
 
 **Key metrics:**
-- Security program budget utilization: 35% ($175K of $500K spent)
+- Security program budget utilization: 31% ($175K of $570K spent)
 - Risk reduction achieved (est.): $13.6M ALE reduction (25% of target)
 - Security incidents: 0 confirmed incidents in Q1
 - ROSI: 7,694% (Q1 cumulative)
@@ -100,7 +100,7 @@ The security program completed its first quarter of operation. Significant found
 | DR infrastructure | $57,000 | $0 | $57,000 |
 | Cyber insurance | $15,000 | $15,000 | $0 |
 | Reserves (incident response) | $50,000 | $0 | $50,000 |
-| **Total** | **$500,000** | **$175,000** | **$325,000** |
+| **Total** | **$570,000** | **$175,000** | **$395,000** |
 
 ---
 
@@ -132,7 +132,7 @@ The security program completed its first quarter of operation. Significant found
 KRI                               Q1 Actual   Status
 ─────────────────────────────────────────────────────
 Patch Compliance                  92%          🟡
-Phishing Click Rate               27.3%        🔴
+Phishing Click Rate               33.4%        🔴
 Open Critical Vulns               2            🟡
 MTTD                              2.5 hrs      🟡
 MTTR                              6 hrs        🟡

@@ -12,7 +12,7 @@
 | KRI ID | KRI Name | Formula | Target | Warning | Critical | Frequency |
 |--------|----------|---------|--------|---------|----------|-----------|
 | KRI-01 | Patch Compliance | % of critical patches applied within SLA (7 days) | ≥95% | <90% | <80% | Weekly |
-| KRI-02 | Phishing Click Rate | % of users who clicked simulated phish in most recent wave | ≤5% | >10% | >20% | Quarterly |
+| KRI-02 | Phishing Click Rate | % of users who clicked simulated phish in Q1 average across 4 waves | ≤5% | >10% | >20% | Quarterly |
 | KRI-03 | Open Critical Vulnerabilities | Count of CVSS 9+ vulnerabilities past SLA | 0 | 1–3 | >3 | Weekly |
 | KRI-04 | Mean Time to Detect (MTTD) | Average hours to detect a confirmed security incident | ≤1 hr | >4 hrs | >24 hrs | Per incident |
 | KRI-05 | Mean Time to Respond (MTTR) | Average hours to contain a confirmed incident | ≤4 hrs | >8 hrs | >24 hrs | Per incident |
@@ -30,7 +30,7 @@
 KRI Dashboard ─ Month 2 2026                      Status
 ──────────────────────────────────────────────────────────
 KRI-01 Patch Compliance            ████████████░░   92%  🟡
-KRI-02 Phishing Click Rate         █████████████    27%  🔴
+KRI-02 Phishing Click Rate         ██████████████   33%  🔴
 KRI-03 Open Critical Vulns         ██░░░░░░░░░░░    2    🟡
 KRI-04 MTTD                        █████████░░░░   2.5h  🟡
 KRI-05 MTTR                        ████████░░░░░░   6h   🟡
@@ -50,7 +50,7 @@ Legend: 🟢 On Target  🟡 Warning  🔴 Critical
 | KRI | Q1 | Q2 (Proj) | Q3 (Proj) | Q4 (Target) |
 |-----|-----|-----------|-----------|-------------|
 | Patch Compliance | 92% | 93% | 95% | **95%** |
-| Phishing Click Rate | 27.3% | 18% | 10% | **5%** |
+| Phishing Click Rate | 33.4% | 18% | 10% | **5%** |
 | Open Critical Vulns | 2 | 0 | 0 | **0** |
 | MTTD | 2.5 hrs | 1.5 hrs | 1 hr | **≤1 hr** |
 | MTTR | 6 hrs | 4 hrs | 3 hrs | **≤4 hrs** |

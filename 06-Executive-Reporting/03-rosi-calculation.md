@@ -31,7 +31,7 @@ Where:
 | Training & awareness | $10,000 | $23,000 | $33,000 |
 | DR infrastructure (cross-region) | $45,000 | $12,000 | $57,000 |
 | Cyber insurance | $0 | $15,000 | $15,000 |
-| **Total** | **$175,000** | **$345,000** | **$520,000** |
+| **Total** | **$175,000** | **$345,000** | **$520,000** ^[Total program cost includes a $20K incident response reserve not reflected in the base budget.] |
 
 ### Risk Reduction
 

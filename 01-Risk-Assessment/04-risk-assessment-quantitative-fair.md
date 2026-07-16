@@ -196,3 +196,9 @@ Secondary Loss = Indirect costs (reputation, customer churn, regulatory fines, l
 3. **$150K in security controls** can reduce total ALE by an estimated 72%, from $75.9M to $21.4M (see ALE/SLE/ARO Calculations for detailed ROI)
 4. **Risk transfer (cyber insurance)** covers an estimated $10M in secondary losses — but does not cover regulatory fines or competitive loss from IP theft
 5. **Recommended budget:** $150K one-time for immediate controls, $50K/year for ongoing operations
+
+---
+
+## FAIR vs ALE/SLE Reconciliation
+
+**Note on FAIR vs ALE/SLE Discrepancies:** The FAIR analysis yields lower ALE values than the ALE/SLE analysis for most risks because FAIR accounts for additional control factors and probability distributions. The ALE/SLE analysis (05-annual-loss-expectancy.md) represents the maximum reasonable exposure and is used for board reporting. The FAIR analysis is used for control prioritization. Both methodologies are valid; their divergence for high-severity risks (up to 4x for ML Model Theft) reflects genuine uncertainty in tail-risk estimation.
